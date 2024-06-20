@@ -33,9 +33,9 @@ function App() {
         onChange={(e)=>setLocation(e.target.value)}
         value={location}
         type="text" 
-        className='rounded-xl py-3 px-6 w-[700px] text-lg bg-slate-800 border-none focus:border-none text-white '   placeholder='ingrese una ciudad' />
+        className=' outline-none focus:border-b-2 border-y-0 border-x-0 border-solid  py-3 px-6 w-[700px] text-lg bg-slate-800 text-white'  placeholder='ingrese una ciudad' />
       </div>
-
+    
 
     {
       data ? <Weater data={data} /> : null
